@@ -18,7 +18,13 @@ const coinStorage = new CoinStorage();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:3000'],
+  origin: [
+    'http://localhost:5173', 
+    'http://localhost:5174', 
+    'http://localhost:3000',
+    'https://moonfeed.app',
+    'https://www.moonfeed.app'
+  ],
   credentials: true
 }));
 app.use(express.json());
