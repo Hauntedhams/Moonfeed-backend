@@ -1,6 +1,6 @@
 {
   "name": "rpc-websockets",
-  "version": "9.1.3",
+  "version": "9.2.0",
   "description": "JSON-RPC 2.0 implementation over WebSockets for Node.js",
   "exports": {
     "browser": {
